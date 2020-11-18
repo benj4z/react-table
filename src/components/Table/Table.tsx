@@ -33,6 +33,7 @@ interface TableComponentProps {
  * It's far from ideal but it works ;)
  *
  * TODO (Jakuba): Adjust specific connect table with User into entity and pass entity type to props for reuse
+ * TODO (Jakuba): Need to add virtualization
  *
  * @param data- Component receive any data as props and displays it in table body
  * @param headerRow - array of string for header row

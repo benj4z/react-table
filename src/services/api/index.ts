@@ -4,7 +4,7 @@ import UserDto from "../dtos/userDto";
 /**
  * Function that get data from the server
  *
- * @return Filtered mapped data
+ * @return sorted mapped data
  */
 export async function getUsers() {
   try {
