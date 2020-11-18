@@ -1,0 +1,23 @@
+.searchWrapper {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.search {
+  flex: 1;
+  padding: 12px 10px;
+  border-radius: 5px;
+  border-color: #ccc;
+  outline: transparent;
+  background-color: #fff;
+}
+
+.icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
