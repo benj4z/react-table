@@ -61,8 +61,8 @@ export const TableComponent = ({
         </tr>
       </thead>
       <tbody>
-      {data.map((user: User) => (
-        <tr onClick={() => onRowClick(user)}>
+      {data.map((user: User, index) => (
+        <tr key={`${user.fullName}-${index}`} onClick={() => onRowClick(user)}>
           {columnsRow.map((column, index) => (
             <td key={`${column.key}-${index}`} style={{width: column.width || 'inherit'}}>
               {column.render(user, column.key)}
